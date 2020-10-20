@@ -2,7 +2,7 @@
 /* header */
 header {
  /* background-color: #55ccab;*/
- background-color: #192f60;
+ background-color: #e6bfb2;
   color: #fff;
   font-size: 18px;
   font-family: cursive;
@@ -28,10 +28,7 @@ header {
   margin-left: 50px;
   font-size:27px;
   font-style: italic;
-
-
 }
-
 .icon img {
   height: 50px;
   margin-right:20px;
@@ -39,7 +36,7 @@ header {
   margin-top: 5px;
 }
 .icon .name strong{
-  color: #54917f;
+  color: #ea5532;
 }
 
 .fa-plane-departure{
@@ -70,7 +67,7 @@ header {
 
 .welcome {
   height: 500px;
-  background-image: url(../img/airplane4.jpg);
+  background-image: url(../img/desert_1.png);
   background-repeat: no-repeat;
   background-size: cover;
   /*写真のリピートを抑え、画面の幅に合わせて変更される*/
@@ -91,7 +88,7 @@ header {
 .title{
   font-size: 45px;
   font-family: Tahoma;
-  color:#192f60;
+  color:#bb5535;
   margin-top: 80px;
 }
 
