@@ -1,4 +1,9 @@
 
+
+body{
+  font-family: ;
+}
+
 /* header */
 header {
  /* background-color: #55ccab;*/
@@ -52,6 +57,9 @@ header {
 .header-right li:first-child{
   margin-right: 20px;
 }
+.header-right li:last-child{
+  color : rgba(255,255,255,.3)
+}
 /* ------- header ここまで ------ */
 
 /* welcome */
@@ -78,7 +86,8 @@ header {
   justify-content: center;
   padding-bottom: none;
   margin-bottom: 50px;
-
+  font-family:cursive,tahoma;
+  font-weight: bolder;
 }
 .rgba{ 
   background-color:rgba(255,255,255,.6)
@@ -87,7 +96,8 @@ header {
 
 .title{
   font-size: 45px;
-  font-family: Tahoma;
+  font-family:  zapfino,cursive,Tahoma;
+  font-style:italic;
   color:#bb5535;
   margin-top: 80px;
 }
@@ -102,7 +112,8 @@ header {
   margin-top: 10px;
   margin-right:30px;
   display: flex;
-  color:#4682b4;
+  /*color:#4682b4;*/
+  color:#0073a8;
   font-style: italic;
   /*font-family: Tahoma;*/
   justify-content:flex-end;
@@ -117,10 +128,11 @@ header {
 
 .btn {
   height: 60px;
-  width: 240px;
+  width: 148px;
   color: #fff;
-  border-radius: 10px;
+ /* border-radius: 10px;*/
   font-size: 28px;
+  font-family: cursive;
   cursor: pointer;
   margin-left: 120px;
 }
@@ -129,17 +141,17 @@ header {
   margin-left: 0;
 }
 
-.individual{
-  background-color: rgba(29,172,224, .5);
-  border: 3px solid rgba(29,172,224, .3);
+.hobby{
+  background-color: rgba(148,35,67, .5);
+  border: 3px solid rgba(148,35,67, .3);
 
 }
 
-.individual:hover{
-  background-color: rgb(29,172,224);
+.hobby:hover{
+  background-color: rgb(148,35,67);
 }
 
-.package{
+/*.package{
   background-color: rgba(236,227,35, .5);
   border: 3px solid rgba(236,227,35, .3);
 }
@@ -147,6 +159,7 @@ header {
 .package:hover{
   background-color: rgb(236,227,35);
 }
+*/
 /* welcome ここまで*/
 
 /* destination */
@@ -194,7 +207,8 @@ header {
 /* contact */
 .contact {
   text-align: center;
-  background-color: #ebf4f5;
+/*  background-color: #ebf4f5;*/
+  background-color: #fce4d6;
   margin-top: 50px;
   padding-top: 45px;
   height: 500px;
@@ -241,13 +255,13 @@ textarea{
 }
 
 .button{
-  background-color: #009cd3;
+  background-color: #f3a68c;
   color:#fff;
   font-size: 20px;
   width:100px;
   height:35px;
   border-radius: 5px;
-  border:3px solid #009cd3;
+  border:3px solid #f3a68c;
   margin-top: 50px;
   margin-bottom: 100px;
   text-align: center;
@@ -258,7 +272,8 @@ textarea{
 /*Footerここから*/
 footer {
  /* background-color: #55ccab;*/
- background-color: #192f60;
+/* background-color: #192f60;*/
+ background-color:#942343;
   color: #fff;
   font-size: 18px;
   font-family: cursive;
